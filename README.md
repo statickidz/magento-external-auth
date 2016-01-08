@@ -2,7 +2,7 @@
 Simple functions to authenticate in Magento outside your code (not your server)
 
 ## Usage
-```
+```php
 //Try to login
 if(MagentoAuth::loginCustomer('username', 'password123')) {
 	print 'Logged in! <br>';
